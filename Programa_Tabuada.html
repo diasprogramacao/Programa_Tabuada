@@ -1,1 +1,33 @@
+<meta charset='UTF-8'>
 
+
+<Script>
+
+function mostra(frase) {
+
+ 	document.write(frase); 
+} 
+
+function pulalinha () { 
+
+	document.write("<br>") ; 
+
+} 
+
+var tabuada = parseInt(prompt("Qual a tabuada precisa ? "))
+var multiplicador = 1
+
+mostra("Tabuada do " + tabuada + " : ") ;
+pulalinha();
+pulalinha();
+
+while ( multiplicador <= 10 ) { 
+
+     mostra(tabuada * multiplicador);
+     multiplicador = multiplicador + 1
+     pulalinha();
+
+
+}  
+
+	</Script>
